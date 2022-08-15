@@ -77,7 +77,7 @@ class DianpingComment:
                     sub_font_dict[x_offset] = font
 
                 font_dict[y_offset] = sub_font_dict
-        #print('字体字典',font_dict)
+       
         return font_dict
 
     def _get_font_dict(self, url):
